@@ -1,0 +1,47 @@
+.logo{
+    width: 50px;
+}
+
+.sidenav{
+    
+}
+
+.menu a:hover {
+    color: rgba(233, 95, 100, 0.745);
+}
+.menu a{
+    transition: 0.3s;
+    color: white;
+}
+
+.icons i{
+    transition: all 0.3s;
+}
+
+.icons i:hover {
+    color: rgba(233, 95, 100, 0.745);
+}
+
+/* -----------------------main------------------------- */
+
+.food-item img{
+    width: 100%;
+    
+}
+
+.food-item{
+    transition: all 0.6s;
+}
+
+.food-item:hover .img-overlay{
+    transform: translate(0,-100%);
+}
+
+.img-overlay{
+    background-color: rgba(255, 255, 255, 0.675);
+    transition: all 0.3s;
+    top: 100;
+}
+
+
+
